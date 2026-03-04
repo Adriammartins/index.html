@@ -1,129 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ações do Direito Bancário</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f9;
-        }
-        header {
-            background-color: #0f172a;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin-bottom: 10px;
-        }
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            transition: 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .card h2 {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .card p {
-            font-size: 14px;
-            color: #444;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0f172a;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silva e Teixeira Advogados | Direito Bancário</title>
+<meta name="description" content="Atuação estratégica em Direito Bancário: revisionais, fraudes, cobranças indevidas e superendividamento.">
+
+<style>
+:root{
+--bg:#f4f6f9;
+--primary:#102a43;
+--accent:#c79b50;
+--text:#243b53;
+--muted:#627d98;
+--white:#ffffff;
+--border:#d9e2ec;
+--shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.wrapper{width:min(1150px,92%);margin:auto}
+
+header{background:linear-gradient(120deg,#0f2c46,#1d4f7a);color:#fff;padding:70px 0 90px;border-bottom:4px solid var(--accent)}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.tag{display:inline-block;background:rgba(255,255,255,.15);padding:8px 14px;border-radius:30px;font-size:.85rem;margin-bottom:15px}
+h1{margin:0 0 15px;font-size:clamp(1.8rem,4vw,2.6rem)}
+.lead{color:#e0e6ed;margin-bottom:25px}
+
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;transition:.2s}
+.btn-primary{background:var(--accent);color:#111}
+.btn-outline{border:1px solid #fff;color:#fff}
+.btn:hover{transform:translateY(-2px);opacity:.9}
+
+.quick-links{margin-top:15px;display:flex;gap:10px;flex-wrap:wrap}
+.chip{background:#fff;color:#102a43;padding:7px 14px;border-radius:20px;font-size:.85rem;border:1px solid var(--border)}
+
+.cover{background:#fff;border-radius:14px;padding:15px;box-shadow:var(--shadow)}
+.cover img{width:100%;height:auto;border-radius:10px}
+
+main{padding:60px 0}
+.section-title{font-size:clamp(1.4rem,3vw,2rem);margin-bottom:8px;color:var(--primary)}
+.section-sub{color:var(--muted);margin-bottom:20px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;box-shadow:0 3px 10px rgba(0,0,0,.04)}
+.card h3{margin-top:0;color:var(--primary)}
+
+.process{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
+.step{background:#fff;border-left:4px solid var(--accent);padding:15px;border-radius:8px;border:1px solid var(--border)}
+
+.cta{background:linear-gradient(120deg,#102a43,#1f4f7a);color:#fff;border-radius:14px;padding:30px;margin-top:40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+
+footer{background:#0f2c46;color:#d9e2ec;padding:25px 0;margin-top:60px;font-size:.9rem}
+footer .wrapper{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+</style>
 </head>
+
 <body>
 
 <header>
-    <h1>Principais Ações do Direito Bancário</h1>
-    <p>Conteúdo atualizado sobre ações judiciais contra instituições financeiras.</p>
+<div class="wrapper hero-grid">
+<div>
+<span class="tag">Direito Bancário Estratégico</span>
+<h1>Defesa técnica contra abusos bancários.</h1>
+<p class="lead">Atuação especializada em revisão contratual, fraudes digitais, negativação indevida e reorganização de dívidas.</p>
+<div>
+<a class="btn btn-primary action-link" data-link-key="agendar">Agendar análise</a>
+<a class="btn btn-outline action-link" data-link-key="servicos">Ver serviços</a>
+</div>
+<div class="quick-links">
+<a class="chip action-link" data-link-key="whatsapp">WhatsApp</a>
+<a class="chip action-link" data-link-key="instagram">Instagram</a>
+<a class="chip action-link" data-link-key="maps">Localização</a>
+</div>
+</div>
+
+<div class="cover">
+<!-- Substitua "capa.jpg" pelo nome da imagem que você enviar -->
+<img src="capa.jpg" alt="Capa institucional do escritório">
+</div>
+
+</div>
 </header>
 
-<section class="container">
+<main>
+<div class="wrapper">
 
-    <div class="card">
-        <h2><strong>Ação Revisional de Contrato Bancário</strong></h2>
-        <p>Utilizada para revisar cláusulas abusivas em contratos de financiamento, empréstimos, cheque especial ou crédito rotativo, especialmente juros excessivos e encargos indevidos.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação Revisional de Financiamento de Veículo</strong></h2>
-        <p>Busca reavaliar juros abusivos, venda casada e taxas ilegais em contratos de financiamento automotivo.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação Revisional de Empréstimo Consignado</strong></h2>
-        <p>Indicada para descontos indevidos em folha ou benefício previdenciário, margem ultrapassada ou contratação não reconhecida.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação Anulatória de Débito</strong></h2>
-        <p>Utilizada quando existe cobrança indevida, fraude bancária ou inscrição irregular em órgãos de proteção ao crédito.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação Declaratória de Inexistência de Débito</strong></h2>
-        <p>Objetiva declaração judicial de inexistência de dívida, comum em casos de fraude ou contratação não autorizada.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Indenização por Danos Morais</strong></h2>
-        <p>Aplicável em casos de negativação indevida, bloqueio injustificado de conta, falha na prestação de serviço ou exposição vexatória.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Repetição de Indébito</strong></h2>
-        <p>Busca devolução de valores cobrados indevidamente, podendo ocorrer restituição em dobro quando comprovada má-fé.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Exibição de Documentos</strong></h2>
-        <p>Utilizada para obrigar o banco a apresentar contratos, extratos ou documentos necessários à defesa do consumidor.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Obrigação de Fazer</strong></h2>
-        <p>Empregada para exigir retirada de negativação indevida, cessar descontos irregulares ou encerrar contrato.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Superendividamento</strong></h2>
-        <p>Permite renegociação judicial de dívidas quando o consumidor comprova impossibilidade de pagamento sem comprometer o mínimo existencial.</p>
-    </div>
-
-    <div class="card">
-        <h2><strong>Ação de Responsabilidade por Fraude Bancária</strong></h2>
-        <p>Utilizada em casos de golpes, transferências não autorizadas, invasão de conta digital ou falha de segurança do banco.</p>
-    </div>
-
+<section id="servicos">
+<h2 class="section-title">Áreas de atuação</h2>
+<p class="section-sub">Soluções jurídicas em conflitos com instituições financeiras.</p>
+<div class="cards">
+<div class="card">
+<h3>Revisional de Contrato</h3>
+<p>Redução de juros abusivos e anulação de cláusulas ilegais.</p>
+<a class="action-link" data-link-key="revicional">Saiba mais →</a>
+</div>
+<div class="card">
+<h3>Fraudes Bancárias</h3>
+<p>Recuperação de valores em golpes e transações não autorizadas.</p>
+<a class="action-link" data-link-key="fraude">Saiba mais →</a>
+</div>
+<div class="card">
+<h3>Cobrança Indevida</h3>
+<p>Exclusão de negativação irregular e indenização por danos.</p>
+<a class="action-link" data-link-key="cobranca">Saiba mais →</a>
+</div>
+<div class="card">
+<h3>Superendividamento</h3>
+<p>Plano judicial de reorganização de dívidas.</p>
+<a class="action-link" data-link-key="superendividamento">Saiba mais →</a>
+</div>
+</div>
 </section>
 
+<section>
+<h2 class="section-title">Como funciona</h2>
+<div class="process">
+<div class="step"><strong>1. Análise</strong><br>Envio de documentos e diagnóstico.</div>
+<div class="step"><strong>2. Estratégia</strong><br>Definição do plano jurídico.</div>
+<div class="step"><strong>3. Execução</strong><br>Atuação extrajudicial ou judicial.</div>
+<div class="step"><strong>4. Acompanhamento</strong><br>Atualizações contínuas.</div>
+</div>
+</section>
+
+<section class="cta" id="contato">
+<div>
+<h2 style="margin:0">Fale com um especialista</h2>
+<p style="margin:5px 0 0;color:#d9e2ec">Escolha o canal de atendimento.</p>
+</div>
+<a class="btn btn-primary action-link" data-link-key="agendar">Iniciar atendimento</a>
+</section>
+
+</div>
+</main>
+
 <footer>
-    © 2026 - Conteúdo informativo sobre Direito Bancário.
+<div class="wrapper">
+<span>© 2026 Silva e Teixeira Advogados.</span>
+<span>Conteúdo informativo. Cada caso exige análise individual.</span>
+</div>
 </footer>
+
+<script>
+// 🔧 ALTERE SOMENTE AQUI PARA DEFINIR OS DESTINOS
+const LINK_ROUTES={
+agendar:"#contato",
+servicos:"#servicos",
+whatsapp:"https://wa.me/5500000000000",
+instagram:"https://instagram.com/",
+maps:"https://maps.google.com/",
+revicional:"#",
+fraude:"#",
+cobranca:"#",
+superendividamento:"#"
+};
+
+document.querySelectorAll('.action-link').forEach(btn=>{
+const key=btn.dataset.linkKey;
+if(LINK_ROUTES[key]){
+btn.href=LINK_ROUTES[key];
+if(LINK_ROUTES[key].startsWith("http")){
+btn.target="_blank";
+btn.rel="noopener noreferrer";
+}
+}
+});
+</script>
 
 </body>
 </html>
