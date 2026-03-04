@@ -1,188 +1,167 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Silva e Teixeira Advogados | Direito Bancário</title>
-<meta name="description" content="Atuação estratégica em Direito Bancário: revisionais, fraudes, cobranças indevidas e superendividamento.">
+<title>Papelaria & Personalizados</title>
 
 <style>
-:root{
---bg:#f4f6f9;
---primary:#102a43;
---accent:#c79b50;
---text:#243b53;
---muted:#627d98;
---white:#ffffff;
---border:#d9e2ec;
---shadow:0 10px 25px rgba(0,0,0,.08);
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
 }
 
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
-a{text-decoration:none;color:inherit}
-.wrapper{width:min(1150px,92%);margin:auto}
+header {
+    background-color: #1e88e5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-header{background:linear-gradient(120deg,#0f2c46,#1d4f7a);color:#fff;padding:70px 0 90px;border-bottom:4px solid var(--accent)}
-.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.tag{display:inline-block;background:rgba(255,255,255,.15);padding:8px 14px;border-radius:30px;font-size:.85rem;margin-bottom:15px}
-h1{margin:0 0 15px;font-size:clamp(1.8rem,4vw,2.6rem)}
-.lead{color:#e0e6ed;margin-bottom:25px}
+header h1 {
+    margin: 0;
+}
 
-.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;transition:.2s}
-.btn-primary{background:var(--accent);color:#111}
-.btn-outline{border:1px solid #fff;color:#fff}
-.btn:hover{transform:translateY(-2px);opacity:.9}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
 
-.quick-links{margin-top:15px;display:flex;gap:10px;flex-wrap:wrap}
-.chip{background:#fff;color:#102a43;padding:7px 14px;border-radius:20px;font-size:.85rem;border:1px solid var(--border)}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-left: 5px solid #1e88e5;
+    padding-left: 10px;
+}
 
-.cover{background:#fff;border-radius:14px;padding:15px;box-shadow:var(--shadow)}
-.cover img{width:100%;height:auto;border-radius:10px}
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
 
-main{padding:60px 0}
-.section-title{font-size:clamp(1.4rem,3vw,2rem);margin-bottom:8px;color:var(--primary)}
-.section-sub{color:var(--muted);margin-bottom:20px}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
 
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;box-shadow:0 3px 10px rgba(0,0,0,.04)}
-.card h3{margin-top:0;color:var(--primary)}
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
 
-.process{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
-.step{background:#fff;border-left:4px solid var(--accent);padding:15px;border-radius:8px;border:1px solid var(--border)}
+.card h3 {
+    margin: 10px 0 5px 0;
+}
 
-.cta{background:linear-gradient(120deg,#102a43,#1f4f7a);color:#fff;border-radius:14px;padding:30px;margin-top:40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
 
-footer{background:#0f2c46;color:#d9e2ec;padding:25px 0;margin-top:60px;font-size:.9rem}
-footer .wrapper{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.card button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #43a047;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+.card button:hover {
+    background-color: #2e7d32;
+}
+
+footer {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<div class="wrapper hero-grid">
-<div>
-<span class="tag">Direito Bancário Estratégico</span>
-<h1>Defesa técnica contra abusos bancários.</h1>
-<p class="lead">Atuação especializada em revisão contratual, fraudes digitais, negativação indevida e reorganização de dívidas.</p>
-<div>
-<a class="btn btn-primary action-link" data-link-key="agendar">Agendar análise</a>
-<a class="btn btn-outline action-link" data-link-key="servicos">Ver serviços</a>
-</div>
-<div class="quick-links">
-<a class="chip action-link" data-link-key="whatsapp">WhatsApp</a>
-<a class="chip action-link" data-link-key="instagram">Instagram</a>
-<a class="chip action-link" data-link-key="maps">Localização</a>
-</div>
-</div>
-
-<div class="cover">
-<!-- Substitua "capa.jpg" pelo nome da imagem que você enviar -->
-<img src="CAPA SET.png" alt="Silva e Teixeira Advogados">
-</div>
-
-</div>
+    <h1>Papelaria & Personalizados Criativos</h1>
+    <p>Xerox • Impressão • Personalizados para Festas • Encadernação</p>
 </header>
 
-<main>
-<div class="wrapper">
+<div class="container">
 
-<section id="servicos">
-<h2 class="section-title">Áreas de atuação</h2>
-<p class="section-sub">Atuação focada na defesa do consumidor em conflitos com bancos e instituições financeiras, com linguagem clara e acompanhamento próximo.</p>
-<div class="cards">
+    <div class="section-title">Personalizados para Festas</div>
 
-<div class="card">
-<h3>Revisão de Contrato Bancário</h3>
-<p>Se você financiou um veículo, fez empréstimo, cartão de crédito ou cheque especial e percebe que a dívida nunca diminui, pode haver cobrança de juros abusivos ou taxas indevidas.</p>
-<p>Nesse tipo de ação analisamos cláusula por cláusula do contrato para verificar excesso de juros, cobrança acumulada ilegal e encargos que não foram explicados corretamente.</p>
-<p>O objetivo é reduzir o valor da dívida, recalcular parcelas e, quando cabível, pedir devolução de valores pagos a mais.</p>
-<a class="action-link" data-link-key="revicional">Saiba mais →</a>
+    <div class="produtos">
+
+        <div class="card">
+            <img src="topo-bolo.jpg" alt="Topo de Bolo Personalizado">
+            <h3>Topo de Bolo Personalizado</h3>
+            <p>Topo de bolo temático (Homem-Aranha, princesas, super-heróis). Produzido em papel fotográfico de alta qualidade.</p>
+            <button>Solicitar no WhatsApp</button>
+        </div>
+
+        <div class="card">
+            <img src="cupcake-topper.jpg" alt="Topper para Cupcake">
+            <h3>Topper para Cupcake</h3>
+            <p>Mini apliques personalizados para cupcakes e docinhos. Ideal para aniversários infantis.</p>
+            <button>Solicitar no WhatsApp</button>
+        </div>
+
+        <div class="card">
+            <img src="painel-festa.jpg" alt="Painel Decorativo">
+            <h3>Painel Decorativo</h3>
+            <p>Painel redondo ou retangular para mesa principal da festa. Impressão em alta resolução.</p>
+            <button>Solicitar no WhatsApp</button>
+        </div>
+
+        <div class="card">
+            <img src="kit-festa.jpg" alt="Kit Festa Personalizado">
+            <h3>Kit Festa Completo</h3>
+            <p>Inclui topo de bolo, toppers, bandeirolas, tags e adesivos personalizados.</p>
+            <button>Solicitar no WhatsApp</button>
+        </div>
+
+    </div>
+
+    <div class="section-title" style="margin-top:40px;">Serviços de Papelaria</div>
+
+    <div class="produtos">
+
+        <div class="card">
+            <h3>Xerox</h3>
+            <p>Cópias preto e branco e coloridas. Tamanho A4 e A3.</p>
+        </div>
+
+        <div class="card">
+            <h3>Impressão</h3>
+            <p>Impressão de trabalhos escolares, documentos, fotos e convites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Encadernação</h3>
+            <p>Encadernação espiral e capa transparente para TCC, apostilas e relatórios.</p>
+        </div>
+
+        <div class="card">
+            <h3>Plastificação</h3>
+            <p>Proteção de documentos importantes contra desgaste e umidade.</p>
+        </div>
+
+    </div>
+
 </div>
-
-<div class="card">
-<h3>Fraudes e Golpes Bancários</h3>
-<p>Casos de PIX indevido, invasão de conta, golpe do WhatsApp, cartão clonado ou transferências que você não reconhece são cada vez mais comuns.</p>
-<p>Mesmo quando o banco tenta responsabilizar o cliente, a instituição financeira tem dever legal de segurança. Se houve falha na proteção do sistema, é possível exigir restituição do valor perdido.</p>
-<p>Atuamos para recuperar valores, cancelar débitos indevidos e buscar indenização quando há prejuízo financeiro ou moral.</p>
-<a class="action-link" data-link-key="fraude">Saiba mais →</a>
-</div>
-
-<div class="card">
-<h3>Negativação e Cobrança Indevida</h3>
-<p>Seu nome foi colocado no SPC ou Serasa por dívida que não existe ou já foi paga? Isso pode gerar direito à indenização.</p>
-<p>A negativação indevida prejudica crédito, financiamentos e até oportunidades profissionais. A lei protege o consumidor contra esse tipo de abuso.</p>
-<p>Buscamos a retirada imediata da restrição e a reparação pelos danos causados.</p>
-<a class="action-link" data-link-key="cobranca">Saiba mais →</a>
-</div>
-
-<div class="card">
-<h3>Superendividamento</h3>
-<p>Quando a renda mensal já não é suficiente para pagar todas as dívidas básicas sem comprometer alimentação, moradia e despesas essenciais, pode existir situação de superendividamento.</p>
-<p>A legislação permite solicitar reorganização judicial das dívidas para que os pagamentos caibam no orçamento familiar, preservando o mínimo existencial.</p>
-<p>O objetivo é negociar todas as dívidas de forma estruturada e impedir cobranças abusivas enquanto o plano é organizado.</p>
-<a class="action-link" data-link-key="superendividamento">Saiba mais →</a>
-</div>
-
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Como funciona</h2>
-<div class="process">
-<div class="step"><strong>1. Análise</strong><br>Envio de documentos e diagnóstico.</div>
-<div class="step"><strong>2. Estratégia</strong><br>Definição do plano jurídico.</div>
-<div class="step"><strong>3. Execução</strong><br>Atuação extrajudicial ou judicial.</div>
-<div class="step"><strong>4. Acompanhamento</strong><br>Atualizações contínuas.</div>
-</div>
-</section>
-
-<section class="cta" id="contato">
-<div>
-<h2 style="margin:0">Fale com um especialista</h2>
-<p style="margin:5px 0 0;color:#d9e2ec">Escolha o canal de atendimento.</p>
-</div>
-<a class="btn btn-primary action-link" data-link-key="agendar">Iniciar atendimento</a>
-</section>
-
-</div>
-</main>
 
 <footer>
-<div class="wrapper">
-<span>© 2026 Silva e Teixeira Advogados.</span>
-<span>Conteúdo informativo. Cada caso exige análise individual.</span>
-</div>
+    © 2026 Papelaria & Personalizados - Todos os direitos reservados
 </footer>
-
-<script>
-// 🔧 ALTERE SOMENTE AQUI PARA DEFINIR OS DESTINOS
-const LINK_ROUTES={
-agendar:"#contato",
-servicos:"#servicos",
-whatsapp:"https://wa.me/qr/XZZ5RBE5S6NVM1",
-instagram:"https://instagram.com/",
-maps:"https://maps.google.com/",
-revicional:"#",
-fraude:"#",
-cobranca:"#",
-superendividamento:"#"
-};
-
-document.querySelectorAll('.action-link').forEach(btn=>{
-const key=btn.dataset.linkKey;
-if(LINK_ROUTES[key]){
-btn.href=LINK_ROUTES[key];
-if(LINK_ROUTES[key].startsWith("http")){
-btn.target="_blank";
-btn.rel="noopener noreferrer";
-}
-}
-});
-</script>
 
 </body>
 </html>
